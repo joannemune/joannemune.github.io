@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scorekeeper App</title>
+	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<h1>The Scorekeeper</h1>
+
+	<h2><span id="p1NameDisplay">Player 1</span> vs <span id="p2NameDisplay">Player 2</span></h2>
+	<h1><span id="p1Display">0</span> | <span id="p2Display">0</span></h1>
+
+	<p>Playing to <span>150</span></p>
+
+	<input type="text" id="p1Name" placeholder="Player 1's Name">
+
+	<input type="text" id="p2Name" placeholder="Player 2's Name">
+
+	<p><label>What score is needed to win? <input type="Number" id="winningScore" placeholder="150"></label></p>
+
+<p>
+	<label><span id="p1label">P1</span>'s Score 
+		<input type="number" class="roundScore" id="p1RoundScore"></label>
+	<button id="p1">Add</button><button id="delp1">Subtract</button>
+</p>
+<p>
+	<label><span id="p2label">P2</span>'s Score 
+		<input type="number" class="roundScore" id="p2RoundScore"></label>
+	<button id="p2">Add</button><button id="delp2">Subtract</button>
+</p>
+
+<p>
+	<img src="https://i.pinimg.com/originals/ee/13/8f/ee138f27b311c383153e31d196c42b46.png" height="400px">
+</p>
+
+<p>
+	<button id="reset">Reset</button>
+</p>
+
+<script type="text/javascript" src="scorekeeper.js"></script>
+
+</body>
+</html>
