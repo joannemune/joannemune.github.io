@@ -1,2 +1,0 @@
-# joannemune.github.io
-Projects
