@@ -32,7 +32,7 @@ var p2Display = document.querySelector("#p2Display");
 var p2Score = 0;
 var resetButton = document.querySelector("#reset");
 var numInput = document.querySelector("#winningScore");
-var winningScoreDisplay = document.querySelector("p span");
+var winningScoreDisplay = document.querySelector("#wScoreDisplay");
 var gameOver = false;
 var p1Name = document.querySelector("#p1Name");
 var p2Name = document.querySelector("#p2Name");
@@ -133,6 +133,8 @@ function resetStuff(){
   p1label.textContent = p1Name;
   p2label.textContent = p2Name;
   roundScores = "";
+  $("input").val("");
+  winningScoreDisplay.textContent = 150;
   gameOver = false;
 };
 
