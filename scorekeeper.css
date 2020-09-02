@@ -16,8 +16,10 @@ div {
 	margin: 30px 30px 30px 30px;
 }
 
-.buttons {
-	margin: 30px 30px 30px 30px;
+button {
+	margin: 5px 5px;
+	border: none;
+
 }
 
 #winningScore {
